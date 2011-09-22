@@ -1,0 +1,1 @@
+require 'dependent_select'
