@@ -1,6 +1,6 @@
 # Dependent Select #
 
-dependent-select is a Formtastic 1.2 compatible extension which provides a `select` where the available options depend on the current value of another field.  When the parent field's value is changed, the options of the `dependent_select` are updated via an AJAX request.  Much of the functionality is implemented in a jQuery plugin which could be used independenly of Formtastic.
+dependent-select is a Formtastic 1.2 compatible extension which provides a `select` where the available options depend on the current value of another field.  When the parent field's value is changed, the options of the `dependent_select` are updated via an AJAX request.  Much of the functionality is implemented in a [jQuery plugin](https://github.com/topsail/dependent-select/blob/master/lib/assets/javascripts/dependent-select.js) which could be used independenly of Formtastic.
 
 ## Simple Example ##
 
