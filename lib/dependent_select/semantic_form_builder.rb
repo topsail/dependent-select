@@ -43,7 +43,7 @@ module Formtastic
           hash
         end
 
-        html += "<script>$(document).ready(function() { $('##{html_options[:id]}').dependentSelect(#{js_options.to_json}) });</script>".html_safe
+        html += "<script>$(document).ready(function() { $('##{html_options[:id]}').dependentSelect('#{options[:parent_id]}', '#{options[:url_template]}', #{js_options.to_json}) });</script>".html_safe
 
       end
 
